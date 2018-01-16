@@ -385,7 +385,6 @@ export default class IBeaconExample extends Component {
           {this._renderButton('Start scan', this._startScanning, '#0019A8')}
           {this._renderButton('Stop scan', this._stopScanning, '#0019A8')}
           {this._renderButton('Restart scan', this._restartScanning, '#0019A8')}
-          // richard addding a comment
         </View>
         {this._renderStatusText()}
         {this._renderStatusText2()}

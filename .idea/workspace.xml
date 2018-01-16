@@ -17,8 +17,8 @@
       <file leaf-file-name="Example.android.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Example.android.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="387" column="38" lean-forward="false" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
+            <state relative-caret-position="817">
+              <caret line="386" column="80" lean-forward="false" selection-start-line="386" selection-start-column="80" selection-end-line="386" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -256,7 +256,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096150563" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096035921" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -304,7 +304,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096150563" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096035921" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -640,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Example.android.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="387" column="38" lean-forward="false" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
+        <state relative-caret-position="817">
+          <caret line="386" column="80" lean-forward="false" selection-start-line="386" selection-start-column="80" selection-end-line="386" selection-end-column="80" />
           <folding />
         </state>
       </provider>
