@@ -1,4 +1,4 @@
-rootProject.name = 'KontaktIoSimpleTest'
+rootProject.name = 'TfL'
 
 include ':app'
 

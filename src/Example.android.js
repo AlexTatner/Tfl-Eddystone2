@@ -71,6 +71,7 @@ var numberOfTfLBeacons = 0
  * sorted by their RSSI which reflects a measure of distance from the beacons
  * to your mobile phone.
  */
+
 export default class IBeaconExample extends Component {
   state = {
     scanning: false,
@@ -89,17 +90,17 @@ export default class IBeaconExample extends Component {
         scanMode: scanMode.BALANCED,
 
             // Set Scan Period
-//        scanPeriod: scanPeriod.create({
-//          activePeriod: 6000,
-//          passivePeriod: 20000,
-//        }),
-        scanPeriod: scanPeriod.RANGING,
+        scanPeriod: scanPeriod.create({
+          activePeriod: 1000,
+          passivePeriod: 1000,
+        }),
+//        scanPeriod: scanPeriod.RANGING,
         activityCheckConfiguration: activityCheckConfiguration.DEFAULT,
         forceScanConfiguration: forceScanConfiguration.MINIMAL,
         monitoringEnabled: monitoringEnabled.TRUE,
         monitoringSyncInterval: monitoringSyncInterval.DEFAULT,
       }))
-      .then(() => setBeaconRegions([region1, region2]))
+//      .then(() => setBeaconRegions([region1, region2]))
       .then(() => setEddystoneNamespace())
       .catch(error => console.log('error', error));
 
@@ -314,14 +315,18 @@ export default class IBeaconExample extends Component {
   };
 
   _renderEddystones = () => {
-      const colors = ['#F7C376', '#EFF7B7', '#F4CDED', '#A2C8F9', '#AAF7AF'];
+//      const colors = ['#F7C376', '#EFF7B7', '#F4CDED', '#A2C8F9', '#AAF7AF'];
 
-      return this.state.eddystones.sort((a, b) => a.accuracy - b.accuracy).map((eddystone, ind) => (
+      return this.state.eddystones.sort((a, b) => a.accuracy - b.accuracy).map(
 
-        <View key={ind} style={[styles.beacon, {backgroundColor: '#AAF7AF'}]}>
-          <Text style={{fontWeight: 'bold'}}>{eddystone.instanceId}</Text>
+      (eddystone, ind) => (
+
+        <View key={ind} style={[styles.beacon, {backgroundColor: '#0019A8'}]}>
+          <Text style={[{fontWeight: 'bold'}, {color: 'white'}]}>{eddystone.instanceId}</Text>
         </View>
-      ), this);
+
+      ),this);
+
     };
 
   _renderEmpty = () => {
@@ -330,9 +335,11 @@ export default class IBeaconExample extends Component {
     if (!scanning) text = "Start scanning to listen for beacon signals!";
     if (scanning && !beacons.length) text = "No beacons detected yet...";
     return (
+
       <View style={styles.textContainer}>
         <Text style={styles.text}>{text}</Text>
       </View>
+
     );
   };
 
@@ -340,7 +347,7 @@ export default class IBeaconExample extends Component {
     const { statusText } = this.state;
     return statusText ? (
       <View style={styles.textContainer}>
-        <Text style={[styles.text, { color: 'red' }]}>{statusText}</Text>
+        <Text style={[styles.text, { color: '#0019A8' }]}>{statusText}</Text>
       </View>
     ) : null;
   };
@@ -349,7 +356,7 @@ export default class IBeaconExample extends Component {
       const { statusText2 } = this.state;
       return statusText2 ? (
         <View style={styles.textContainer}>
-          <Text style={[styles.text, { color: 'red' }]}>{statusText2}</Text>
+          <Text style={[styles.text, { color: '#0019A8' }]}>{statusText2}</Text>
         </View>
       ) : null;
     };
@@ -358,20 +365,18 @@ export default class IBeaconExample extends Component {
       const { numberOfTfLBeacons } = this.state;
       return numberOfTfLBeacons ? (
         <View style={styles.textContainer}>
-          <Text style={[styles.text, { color: 'red' }]}>{ numberOfTfLBeacons }</Text>
+          <Text style={[styles.text, { color: '#0019A8' }]}>{ numberOfTfLBeacons }</Text>
         </View>
       ) : null;
     };
 
   _renderButton = (text, onPress, backgroundColor) => (
     <TouchableOpacity style={[styles.button, { backgroundColor }]} onPress={onPress}>
-      <Text>{text}</Text>
+      <Text style={styles.buttonText}>{text}</Text>
     </TouchableOpacity>
   );
 
-  _renderClosestBeacon = () => {
-
-
+  _clearLog = () => {
 
   };
 
@@ -381,9 +386,10 @@ export default class IBeaconExample extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
-          {this._renderButton('Start scan', this._startScanning, '#84e2f9')}
-          {this._renderButton('Stop scan', this._stopScanning, '#84e2f9')}
-          {this._renderButton('Restart scan', this._restartScanning, '#84e2f9')}
+          {this._renderButton('Start scan', this._startScanning, '#0019A8')}
+          {this._renderButton('Stop scan', this._stopScanning, '#0019A8')}
+          {this._renderButton('Restart scan', this._restartScanning, '#0019A8')}
+          {this._renderButton('Clear Log', this._clearLog, '#0019A8')}
         </View>
         {this._renderStatusText()}
         {this._renderStatusText2()}
@@ -398,29 +404,43 @@ export default class IBeaconExample extends Component {
 }
 
 const styles = StyleSheet.create({
+
   container: {
     flex: 1,
   },
+
   beacon: {
     justifyContent: 'space-around',
     alignItems: 'center',
     padding: 10,
   },
+
   textContainer: {
     alignItems: 'center',
   },
+
   text: {
+    fontFamily: 'Johnston100',
     fontSize: 18,
     fontWeight: 'bold',
   },
+
+  buttonText: {
+    fontFamily: 'Johnston100',
+    color: 'white',
+    fontWeight: 'bold',
+  },
+
   buttonContainer: {
     marginVertical: 20,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around',
   },
+
   button: {
-    padding: 10,
-    borderRadius: 10,
+    padding: 15,
+    borderRadius: 50,
+
   },
 });
