@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a46915b-efea-41e1-bfb8-b9556455b54d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Johnston100W03-Hairline.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Johnston100W03-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Johnston100W03-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Johnston100W03-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Johnston100W03-Thin.ttf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/classes-ab27be625d9b7ac05ded43729449b4b45f659480.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/TfL.xcodeproj/project.pbxproj" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest.xcodeproj/xcshareddata/xcschemes/KontaktIoSimpleTest.xcscheme" afterPath="$PROJECT_DIR$/ios/TfL.xcodeproj/xcshareddata/xcschemes/TfL.xcscheme" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/AppDelegate.h" afterPath="$PROJECT_DIR$/ios/TfL/AppDelegate.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/AppDelegate.m" afterPath="$PROJECT_DIR$/ios/TfL/AppDelegate.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/Base.lproj/LaunchScreen.xib" afterPath="$PROJECT_DIR$/ios/TfL/Base.lproj/LaunchScreen.xib" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/ios/TfL/Images.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/Info.plist" afterPath="$PROJECT_DIR$/ios/TfL/Info.plist" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTest/main.m" afterPath="$PROJECT_DIR$/ios/TfL/main.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTestTests/Info.plist" afterPath="$PROJECT_DIR$/ios/TfLTests/Info.plist" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/KontaktIoSimpleTestTests/KontaktIoSimpleTestTests.m" afterPath="$PROJECT_DIR$/ios/TfLTests/TfLTests.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/android/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.ios.js" afterPath="$PROJECT_DIR$/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Example.android.js" afterPath="$PROJECT_DIR$/src/Example.android.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +17,8 @@
       <file leaf-file-name="Example.android.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Example.android.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1505">
-              <caret line="324" column="86" lean-forward="false" selection-start-line="324" selection-start-column="66" selection-end-line="324" selection-end-column="86" />
+            <state relative-caret-position="817">
+              <caret line="386" column="80" lean-forward="false" selection-start-line="386" selection-start-column="80" selection-end-line="386" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -290,7 +256,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516095632032" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096035921" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -338,7 +304,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516095632032" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516096035921" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -674,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Example.android.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1505">
-          <caret line="324" column="86" lean-forward="false" selection-start-line="324" selection-start-column="66" selection-end-line="324" selection-end-column="86" />
+        <state relative-caret-position="817">
+          <caret line="386" column="80" lean-forward="false" selection-start-line="386" selection-start-column="80" selection-end-line="386" selection-end-column="80" />
           <folding />
         </state>
       </provider>

@@ -376,10 +376,6 @@ export default class IBeaconExample extends Component {
     </TouchableOpacity>
   );
 
-  _clearLog = () => {
-
-  };
-
   render() {
     const { scanning, beacons } = this.state;
 
@@ -389,7 +385,6 @@ export default class IBeaconExample extends Component {
           {this._renderButton('Start scan', this._startScanning, '#0019A8')}
           {this._renderButton('Stop scan', this._stopScanning, '#0019A8')}
           {this._renderButton('Restart scan', this._restartScanning, '#0019A8')}
-          {this._renderButton('Clear Log', this._clearLog, '#0019A8')}
         </View>
         {this._renderStatusText()}
         {this._renderStatusText2()}
